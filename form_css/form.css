@@ -1,0 +1,19 @@
+.fd {
+    padding: 6px 10px;
+    background-color: #0064FF;
+    border-radius: 45px !important;
+    color: #fff;
+    border: 1px solid #0064FF;
+}
+.d-flex button{
+    text-align: right;
+}
+div#formProgress{
+    background: black;
+}
+.progress.mb-4 {
+    height: 8px;
+}
+.button2{
+    float: right;
+}

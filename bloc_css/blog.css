@@ -1,0 +1,618 @@
+/* Reset some default styles */
+
+
+body {
+    background-color: #001944;
+    color: white;
+}
+
+/* Navbar styles */
+ /*headetop*/
+header.header_top {
+    background-color: #0A1956;
+}
+a.btn.btn-light.text-dark.fw-semibold {
+    border-radius: 58px;
+}
+
+/*heder end*/
+
+.logo img {
+    height: 40px;
+}
+
+.logo p {
+    font-size: 10px;
+    color: #ccc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+.arna li a{
+    text-decoration: none;
+    color: #9DA1AC;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+    color: #00bfff;
+}
+
+/* Call to action button */
+.cta button {
+    background-color: white;
+    color: #001944;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Blog header section */
+.blog-header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #001944;
+}
+
+.blog-header .meta {
+    color: #bbb;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.blog-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+
+.test-info {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+
+.content-box {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  color: #222;
+}
+
+
+
+.para {
+  padding-left: 100px;
+  color: black;
+}
+
+.intro {
+  color: #555;
+
+  margin-bottom: 15px;
+}
+
+
+
+.subtext {
+  color: #666;
+  font-size: 15px;
+}
+
+
+
+
+
+
+.details {
+  color: #555;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+
+.exceptions span.red {
+  color: #000;
+  font-weight: bold;
+}
+
+
+.condition{
+  color: #555;
+  font-size: 20px;
+}
+
+
+
+
+
+/* General Footer Styling */
+
+.footer-top {
+  background-color:  #0a0f2c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #444;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.social-icons a img {
+  width: 30px;
+  margin-left: 15px;
+  transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* image css....... */
+
+
+
+.test-images {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.test-images .container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  /* flex-wrap: wrap; ছোট স্ক্রিনে নিচে নামবে */
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+.life-in-uk-section {
+  background-color: #f0f4fc;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.uk-test-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 1220px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.para2 {
+  padding-left: 172px;
+}
+
+.uk-test-box h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.uk-test-box h4 {
+  font-size: 18px;
+  margin-top: 25px;
+  color: black;
+}
+
+.uk-test-box ul,
+.uk-test-box ol {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.uk-test-box li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #333333;
+}
+
+
+
+
+.dis {
+  color: #000;
+}
+
+.uk-test-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444444;
+  margin-top: 10px;
+}
+
+.uk-test-box .cta-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 30px;
+  text-align: left;
+}
+
+
+
+
+
+/* 3 image......... */
+
+
+.similar-posts-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.similar-posts-section .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.similar-posts-section h2 {
+    margin-right: 981px;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.posts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.post-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  flex: 1 1 calc(33.333% - 20px);
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Overlay Play Icon */
+.icon-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.image-wrapper:hover .icon-overlay {
+  opacity: 1;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.post-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.post-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+
+
+/* new css.... */
+
+
+/*footer*/
+.course1 {
+    background-image: url(../image/Newsletters.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.course1 h1 {
+    font-size: 48px;
+    font-weight: '600';
+    color: white;
+    margin-top: 150px;
+}
+.course1 button {
+    font-size: 16px;
+    font-weight: '600';
+    color: white;
+    background-color: #FF6600;
+    border: #FF6600;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+
+.logo1 {
+    background-color: #0A1330;
+}
+.logo1 img{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #0A1956;
+}
+.footer {
+    background-color: #0A1330;
+    height: 100%;
+}
+.footer1 {
+    border-top: 1px solid #3e3f45;
+    position: relative;
+    top: 25px;
+}
+i.fa-brands.fa-facebook-f.fb {
+    padding: 12px 15px;
+}
+.foot a i {
+    color: #fff;
+    background-color: #3e445b78;
+    padding: 12px;
+    border-radius: 45px;
+    float: right;
+    margin-left: 7px;
+}
+.foot a i:hover {
+    background-color: #0033ff;
+}
+.footer h3 {
+    font-size: 23px;
+    font-weight: '700';
+    color: white;
+    margin-top: 30px;
+}
+.footer ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: #9DA1AC;
+}
+input.form-control.mb-3.mt-2 {
+    border-radius: 45px;
+    background-color: #0A1330;
+    color: white;
+}
+
+.form-control::placeholder {
+  color: #ffffff !important; /* সাদা রঙ */
+  opacity: 1;     /* যেন পুরোপুরি দৃশ্যমান থাকে */
+}
+.footer button {
+    border-radius: 45px;
+    padding: 10px 20px;
+}
+.newbutt {
+    color: #fff;
+    background-color: #0064FF;
+    width: 100%;
+}
+.tor a {
+    text-decoration: none;
+    color: gray;
+}
+.ret {
+    float: right;
+}
+.allright p{
+  color: gray;
+}
+
+/*footer end*/
+
+
+
+@media (max-width: 767px) {
+
+  .blog-header .meta{
+    font-size: 16px;
+}
+.content-box {
+    padding-left: 35px;
+    padding-top: 0px;
+}
+.para {
+    padding-left: 40px;
+}
+.image-box img {
+    margin-bottom: 25px;
+    width: 100%;
+}
+.para2 {
+    padding-left: 45px;
+}
+.similar-posts-section h2 {
+    margin-bottom: -107px;
+}
+.posts-grid {
+    display: block;
+}
+.blog-header h1 {
+        font-size: 27px;
+}
+
+/*futter*/
+.footer h3 {
+        font-size: 17px;
+    }
+
+    .footer ul {
+        font-size: 13px;
+    }
+.course1 h1
+{
+        font-size: 32px;
+        margin-top: 66px;
+    }
+.allright p {
+        font-size: 12px;
+    }
+
+/*futter end 767*/
+
+.post-card{
+    margin-top: 130px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+  .blog-header h1{
+    font-size: 19px;
+  }
+.content-box {
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.feather h2 {
+    font-size: 24px;
+    font-family: poppins;
+    font-weight: bold;
+}
+.para {
+    padding-left: 0px;
+}
+.image-box img {
+    margin-bottom: 20px;
+}
+.para2 {
+    padding-left: 0px;
+}
+.post-card {
+    padding: 0px;
+}
+.posts-grid {
+    display: block;
+}
+.footer button{
+        padding: 10px 8px;
+    }
+
+.tor a {
+    font-size: 12px;
+}
+}
+
+
+
+
+

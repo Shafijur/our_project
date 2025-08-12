@@ -1,0 +1,419 @@
+
+.header{
+    height: 1550px;
+    
+}
+.banner{
+    position: relative;
+    top: 37px;
+}
+.slaider_color::before,
+.slaider_color::after {
+background: linear-gradient(to right, rgba(255,255,255,1) 0%,
+rgba(255,255,255,0) 100%);
+content: '';
+height: 100%;
+position: absolute;
+width: 15%;
+z-index: 2;
+}
+.slaider_color::before {
+left: 0;
+top: 0;
+}
+.slaider_color::after {
+right: 0;
+top: 0;
+transform: rotate(180deg);
+}
+.banner h1{
+    font-family: 'poppins';
+    font-size: 56px;
+    font-weight:700 ;
+    color:white;
+    text-align: center ;
+    
+}
+.banner p{
+     font-family: 'inter';
+    font-size:20px;
+    font-weight:400 ;
+    color:#A1B4C5;
+    text-align: center ;
+}
+.banner img{
+    border-radius: 19px;
+    position: relative;
+    top:50px;
+    width: 100%;
+    
+}
+.future{
+    top: 195px;
+    position: relative;
+}
+.future h1{
+     font-family: 'poppins';
+    font-size:48px;
+    font-weight:800 ;
+    color: white;
+    
+}
+.future p{
+    color:#A1B4C5;
+     font-family: 'inter';
+    font-size:16px;
+    font-weight:600 ;
+    
+}
+.tag h1{
+  font-family: 'poppins';
+    font-size:48px;
+    font-weight:800 ;
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+.edu h3{
+      font-family: 'poppins';
+    font-size:24px;
+    font-weight:600 ;
+    padding: 10px 0px;
+}
+.edu p{
+     font-family: 'inter';
+    font-size:16px;
+    color: #595F64;  
+}
+.team_title h3 {
+  margin-bottom: 60px;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 48px;
+
+}
+
+  
+.edu{
+  top: 30px;
+  position: relative;
+}
+.edu:hover{
+  background-color: #e1e3e5;
+  border-radius: 15px;
+  padding: 10px 10px;
+}
+.edu i{
+    background-color: rgb(73, 142, 246);
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+.feather-left h1{
+  font-family: 'poppins';
+    font-size:48px;
+    font-weight:800 ;
+}
+.feather-left h3{
+  font-family: 'inter';
+    font-size:16px;
+    font-weight:600 ;
+    font-style: oblique;   
+}
+.feather-left p{
+  color:#595F64;   
+}
+.feather-left h6{
+  font-family: 'inter';
+    font-size:20px;
+    font-weight:600;     
+}
+.con h5 {
+    font-size: 14px;
+    margin-left: -45px;
+}
+
+.con h4 {
+    font-size: 20px;
+    color: #595F64;
+    margin-left: -44px;
+}
+.clind h6 {
+  font-size: 16px;
+  font-family: 'inter';
+  font-weight: 500;
+  margin-top: -56px;
+  margin-left: 76px;
+}
+.clind h4 {
+  color: #595F64;
+  top: -33px;
+  left: -204px;
+}
+.mg img {
+    height: 100px;
+    width: 100px;
+}
+.con {
+    margin-left: -30px;
+    margin-top: 19px !important;
+}
+.clind img {
+  height: 64px;
+
+}
+.feather-left button span {
+  font-weight: bold;
+}
+.career{
+  margin-top: 100px;
+}
+.sit img{
+  padding: 0px 10px;
+}
+.review {
+  padding-bottom: 120px;
+}
+.review_title h3 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 800;
+  font-family: 'poppins';
+}
+.review_card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #E9EAEB;
+}
+.review_text {
+    margin-top: 12px;
+    color: #535862;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.review_profile {
+    display: flex;
+    align-items: center;
+}
+
+.review_profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.profile_info {
+  font-size: 14px;
+}
+.profile_info i{
+  padding: 4px 8px;
+}
+.profile_info span {
+  font-weight: bold;
+  display: block;
+}
+.logoslide h6{
+  text-align: center;
+  margin-top: 40px;
+  color:gray;
+}
+
+
+/*slaaider */
+.owl-nav {
+    font-size: 30px;
+}
+
+/*video*/
+
+
+   
+    .video {
+      display:none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center !important;
+  position: relative;
+  max-width: 100%;
+}
+
+.thumbnail,
+.video {
+  width: 1280px;
+  height: 750px;
+  height: auto;
+  max-width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+/*video*/
+
+
+
+ /*headetop*/
+header.header_top {
+    background-color: #0A1956;
+}
+a.btn.btn-light.text-dark.fw-semibold {
+    border-radius: 58px;
+}
+li.nav-item {
+    margin: 0px 20px;
+}
+/*heder end*/
+
+/* Responsive */
+@media (max-width: 992px) {
+  
+  .banner img {
+    width: 100%;
+    }
+
+  .header_top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header {
+        height: 1076px;
+    }
+ .future h1 {
+    font-size: 42px;
+ }
+ .tag h1 {
+    right: 0px;
+ }
+ .col-6 {
+    width: 42%;
+}
+      .future p {
+        width: 84%;
+    }
+  .banner h1 {
+    font-size: 32px;
+    margin-left: -53px;
+    }
+    .feather-left h1 {
+    font-size: 46px;
+    }
+    .banner p {
+      font-size: 13px;
+      margin-left: -54px;
+    }
+    .career {
+    width: 82%;
+}
+.man1 {
+  text-align: center;
+}
+.feather-left h1 {
+        font-size: 33px;
+    }
+    .clind img {
+    right: 189px;
+}
+
+
+    .sit img {
+        width: 154%;
+        position: relative;
+        left: 82px;
+    }
+        .man img {
+        width: 180%;
+    }
+    .logoslide h6 {
+    left: -84px;
+}
+  .team_title h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.review_title h3 {
+    font-size: 35px;
+}
+.q1 h1 {
+    font-size: 38px;
+}
+.team_title h3 {
+  font-size: 30px;
+}
+
+
+
+
+
+}
+
+@media (max-width: 576px){
+  .banner p {
+        font-size: 9px;
+    }
+      .banner h1 {
+        font-size: 20px;
+    } 
+    .future h1 {
+        font-size: 24px;
+    } 
+    .tag h1 {
+        right: 40px;
+        font-size: 22px;
+    }
+    .feather-left h1 {
+        font-size: 23px;
+    }
+    .clind img {
+        right: 102px;
+    }
+    .clind h4 {
+        top: -84px;
+        left: 76px;
+    }
+    .man img {
+        width: 268%;
+    }
+            .sit img {
+        width: 276%;
+        margin-top: 0px;
+    }
+    .man img {
+        width: 238%;
+    }
+    .mg img {
+    height: 60px;
+    width: 60px;
+}
+.con h5 {
+    margin-top: -10px;
+    font-size: 10px;
+    margin-left: -32px;
+}
+.con h4 {
+    font-size: 12px;
+    margin-left: -35px;
+    margin-top: -5px;
+}
+    .team_title h3 {
+    font-size: 30px;
+}
+.review_title h3 {
+        font-size: 25px;
+    }
+     .newsletter-box {
+        border-right: none;
+        border-bottom: 2px dashed #00aaff;
+      }
+      
+.q1 h1 {
+        font-size: 31px;
+    }
+}

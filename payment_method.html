@@ -1,0 +1,143 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ELITE</title>
+    <link rel="icon" type="image/png" href="image/Mask group in whit page .svg">
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets1/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets1/css/owl.theme.default.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets1/css/style.css">
+  <link rel="stylesheet" href="./assets1/css/styl1.css">
+</head>
+<body>
+
+  <!-- Payment Section -->
+  <div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+              <h5 class="mb-0">Enroll Course</h5>
+              <small><span id="stepIndicator">1</span>/2</small>
+            </div>
+    <div class="progress mb-4">
+      <div class="progress-bar" style="width:50%"></div>
+    </div>
+
+    <form class="row g-4">
+      <!-- Payment Method Toggle -->
+      <div class="col-12">
+        <label class="form-label">Payment method</label>
+        <div class="d-flex gap-3">
+          <div id="cardOpt" class="carr border p-3 rounded text-center" style="cursor:pointer;">
+            <i class="fa-solid fa-credit-card fa-2x"></i><br>
+            <h5 class="mt-2">Credit or Debit Card</h5>
+          </div>
+          <div id="bankOpt" class="carr border p-3 rounded text-center" style="cursor:pointer;">
+            <i class="fa-solid fa-building-columns fa-2x"></i><br>
+            <h5 class="mt-2">Bank</h5>
+          </div>
+        </div>
+      </div>
+      <h5>Payment information</h5>
+
+      <!-- Card Fields -->
+      <div class="col-12 row gx-3 cardFields">
+        <div class="col-md-6">
+          <label class="form-label">Card number</label>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="1234 1234 1234 1234">
+            <span class="input-group-text"><i class="bi bi-credit-card-2-front"></i></span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Expiration date</label>
+          <input type="text" class="form-control" placeholder="MM / YY">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Security code</label>
+          <input type="text" class="form-control" placeholder="CVV">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Name on card</label>
+          <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Country</label>
+          <select class="form-select">
+            <option selected>Select your Country</option>
+            <option>United States</option>
+            <option>Canada</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Zip code</label>
+          <input type="text" class="form-control" placeholder="12345">
+        </div>
+      </div>
+
+      <!-- Bank Fields -->
+      <div class="col-12 row gx-3 bankFields d-none">
+        <div class="col-md-6">
+          <label class="form-label">Account number</label>
+          <input type="text" class="form-control" placeholder="0123456789">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Routing number</label>
+          <input type="text" class="form-control" placeholder="012345678">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Account holder name</label>
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="col-6">
+        <button type="button" class="btn btn-light button1">Back</button>
+      </div>
+      <div class="col-6 text-end">
+        <button type="submit" class="btn btn-primary button2">Make Payment</button>
+      </div>
+    </form>
+  </div>
+  <a href="login.html">login page</a>
+
+  <!-- Optional styling for active card/bank -->
+  
+
+  <!-- Scripts -->
+  <script src="./assets1/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets1/js/main.js"></script>
+
+  <script>
+    const cardOpt = document.getElementById('cardOpt');
+    const bankOpt = document.getElementById('bankOpt');
+    const cardFields = document.querySelector('.cardFields');
+    const bankFields = document.querySelector('.bankFields');
+
+    cardOpt.addEventListener('click', () => {
+      cardOpt.classList.add('active');
+      bankOpt.classList.remove('active');
+      cardFields.classList.remove('d-none');
+      bankFields.classList.add('d-none');
+    });
+
+    bankOpt.addEventListener('click', () => {
+      bankOpt.classList.add('active');
+      cardOpt.classList.remove('active');
+      bankFields.classList.remove('d-none');
+      cardFields.classList.add('d-none');
+    });
+  </script>
+</body>
+</html>
